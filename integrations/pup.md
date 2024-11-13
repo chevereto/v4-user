@@ -62,13 +62,23 @@ Named color palette of the button or a comma-separated list of colors (HEX, RGB,
 
 ### `auto-insert`
 
-  Embed codes to auto insert in the target editable content. Codes using `full`, `medium` or `thumbnail` will link to the image viewer page.
+Embed codes to auto insert in the target editable content. Codes using `full`, `medium` or `thumbnail` will link to the image viewer page.
 
-  Use `0` to disable auto insert.
+Use `0` to disable auto insert.
 
 | Type   | Values                                                                                                                                                                                                                                                                                  | Default               |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | String | `0` `viewer-links` `direct-links` `html-embed` `html-embed-full` `html-embed-medium` `html-embed-thumbnail` `bbcode-embed` `bbcode-embed-full` `bbcode-embed-medium` `bbcode-embed-thumbnail` `markdown-embed` `markdown-embed-full` `markdown-embed-medium` `markdown-embed-thumbnail` | `bbcode-embed-medium` |
+
+### `auto-close`
+
+A boolean indicating if the popup should auto close after the image is inserted.
+
+Use `0` to disable auto-close.
+
+| Type    | Values  | Default |
+| ------- | ------- | ------- |
+| Integer | `0` `1` | `1`     |
 
 ### `sibling`
 
