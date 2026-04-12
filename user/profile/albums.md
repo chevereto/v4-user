@@ -17,4 +17,8 @@ From any **user section**:
 * Complete and submit the **form**
 * When finished, you will be **redirected** to the newly created album
 
-` wip - from uploader`
+You can also create a new album directly from the upload page after completing an upload:
+
+* After the upload finishes, click the **Create new album** link that appears in the post-upload area
+* Complete and submit the **form**
+* All the files just uploaded will be moved into the new album automatically

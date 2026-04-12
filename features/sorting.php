@@ -5,4 +5,5 @@ return [
     'explore/',
     'search/',
     'listings/',
+    'content/',
 ];

@@ -4,5 +4,5 @@ return [
     'user/' => 'User',
     'features/' => 'Features',
     'integrations/' => 'Integrations',
-    'upload/' => 'Upload',
+    'settings/' => 'Settings',
 ];
