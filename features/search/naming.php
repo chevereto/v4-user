@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'basic.md' => '🐣 Búsqueda básica',
-    'advanced.md' => '⚙️ Búsqueda avanzada',
+    'basic.md' => 'Basic search',
+    'advanced.md' => 'Advanced search',
 ];

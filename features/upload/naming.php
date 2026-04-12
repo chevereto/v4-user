@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'formats.md' => '🧐 Formatos',
-    'local.md' => '🆙 Subir local',
-    'url.md' => '🔗 Subir URL',
+    'formats.md' => 'Formats',
+    'local.md' => 'Upload local',
+    'url.md' => 'Upload URL',
 ];

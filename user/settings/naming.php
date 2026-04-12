@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'account.md' => '🎩 Cuenta',
-    'profile.md' => '🤙 Perfil',
-    'password.md' => '🔑 Contraseña',
-    'api.md' => '🖼 API',
-    'security.md' => '🛡 Seguridad',
+    'account.md' => 'Account',
+    'profile.md' => 'Profile',
+    'password.md' => 'Password',
+    'api.md' => 'API',
+    'security.md' => 'Security',
 ];

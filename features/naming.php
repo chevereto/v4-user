@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'upload/' => '🌥️ Subida',
-    'search/' => '🔍 Búsqueda',
-    'explore/' => '🧭 Explorar',
-    'content/' => '🗃️ Contenido',
-    'listings/' => '🕹 Listados',
+    'upload/' => 'Upload',
+    'search/' => 'Search',
+    'explore/' => 'Explore',
+    'content/' => 'Content',
+    'listings/' => 'Listings',
 ];

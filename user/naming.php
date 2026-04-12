@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'account/' => '🆔 Cuenta',
-    'profile/' => '🧑🏽 Perfil',
-    'settings/' => '⚙️ Ajustes',
+    'account/' => 'Account',
+    'profile/' => 'Profile',
+    'settings/' => 'Settings',
 ];
