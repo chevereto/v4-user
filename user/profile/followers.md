@@ -1,5 +1,5 @@
-# Seguidores
+# Followers
 
-Esta sección exhibe un listado con los usuarios que siguen al usuario.
+This section displays a list of users who follow the user.
 
 <!-- <img class="media-screen" src="../../src/manual/settings/user/content/following.png" width="500"/> -->

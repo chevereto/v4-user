@@ -1,6 +1,6 @@
 <?php
 
 return [
+    'sharex.md',
     'pup.md',
-    'sharex.md'
 ];
