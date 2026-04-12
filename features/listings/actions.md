@@ -102,6 +102,8 @@ Select the privacy type for your album:
 Media will be private if it is within a private album or sub-album. Media on its own cannot be private.
 :::
 
+See [Album](../content/album.md) for full details on album privacy, sub-albums, sharing, likes, and embed codes.
+
 ## Delete album (Del)
 
 * Go to your albums and select one or more albums to delete.

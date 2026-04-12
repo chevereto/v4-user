@@ -1,6 +1,8 @@
 # Albums
 
-In this section are the user's albums.
+In this section are the user's albums. Albums are content containers that work like folders, grouping media files with support for nested sub-albums and privacy controls.
+
+See [Album](../../features/content/album.md) for full details on how albums work, including privacy settings, sub-albums, sharing, likes, and embed codes.
 
 <img class="media-screen" src="../../src/manual/settings/user/content/user-album.png" width="600"/>
 

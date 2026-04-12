@@ -54,13 +54,13 @@ Requires [Login](../../user/account/login.md). Click the **Edit** button to open
 
 * **Title** — optional display name
 * **Tags** — optional comma-separated tags; each tag links to its [tag page](../explore/tags.md) on the media page
-* **Album** — assign to one of your albums
+* **Album** — assign to one of your [albums](album.md)
 * **Category** — assign to a site category
 * **Flag not safe** — mark the media as NSFW
 * **Description** — optional text description
 
 ## Album thumbnails
 
-When the media belongs to an album, thumbnails of the other items in that album are displayed at the bottom of the page. Click any thumbnail to navigate to it.
+When the media belongs to an [album](album.md), thumbnails of the other items in that album are displayed at the bottom of the page. Click any thumbnail to navigate to it.
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/imgs-album.png" width="500"/>
