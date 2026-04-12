@@ -1,4 +1,4 @@
-# 👏 Seguidores
+# Seguidores
 
 Esta sección exhibe un listado con los usuarios que siguen al usuario.
 

@@ -1,4 +1,4 @@
-# 🌠 Descubrimiento
+# Descubrimiento
 
 Los listados de la sección descubrimiento permiten listar imágenes, álbumes y usuarios usando criterios de selección de interés general.
 
@@ -22,6 +22,6 @@ Igual que reciente, pero para archivos GIF animados.
 
 ### Siguiendo
 
-Require [🔐 Ingreso](../../user/account/login.md)).
+Require [ Ingreso](../../user/account/login.md)).
 
 Muestra el contenido subido por usuarios seguidos por el usuario.

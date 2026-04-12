@@ -1,4 +1,4 @@
-# 🔔 Notificaciones
+# Notificaciones
 
 Las notificaciones se ubican en la barra superior, al costado del ícono de usuario.
 

@@ -1,4 +1,4 @@
-# 🤌 Listados de contenido
+# Listados de contenido
 
 Los listados de contenido se refieren a aquellos que listan contenido de un usuario, un album o una categoría.
 

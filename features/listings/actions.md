@@ -1,6 +1,6 @@
-# ⚡️ Acciones
+# Acciones
 
-Requiere [🔐 Ingreso](../../user/account/login.md) y [👸 Administración](https://v4-admin.chevereto.com/) para las acciones marcadas con (*).
+Requiere [ Ingreso](../../user/account/login.md) y [ Administración](https://v4-admin.chevereto.com/) para las acciones marcadas con (*).
 
 ## Activando el menú acciones
 
@@ -161,7 +161,7 @@ Encuentre los álbumes anidados bajo la descripción del álbum, en la pestaña 
 Una vez creado el nuevo sub álbum, puede agregar más imágenes (P) o mover las existentes desde otro álbum (M).
 
 <video class="media-screen" width="100%" controls autoplay>
-    <source src="../../src/manual/settings/user/actions/sub-album.webm" type="video/webm">
+<source src="../../src/manual/settings/user/actions/sub-album.webm" type="video/webm">
 </video>
 
 ## Portada de álbum/Cover (H)
@@ -204,5 +204,5 @@ Una manera sencilla de dar **Me gusta** al contenido, es haciendo click en el í
 <img class="media-screen" src="../../src/manual/settings/user/actions/like.png" width="400"/>
 
 :::tip
-👉🏻  [Información de imagen](../explorer/explore.md)
+[Información de imagen](../explorer/explore.md)
 :::

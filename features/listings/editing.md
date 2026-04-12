@@ -1,11 +1,11 @@
-# 📝 Edición
+# Edición
 
-Requiere [🔐 Ingreso](../../user/account/login.md).
+Requiere [ Ingreso](../../user/account/login.md).
 
 Las opciones de edición en Chevereto permiten editar el contenido presente en un listado. Dependiendo del contexto del listado se ofrecerán distintas [Acciones](actions.md).
 
 <video class="media-screen" width="100%" controls autoplay>
-    <source src="../../src/manual/settings/user/actions/actions.webm" type="video/webm">
+<source src="../../src/manual/settings/user/actions/actions.webm" type="video/webm">
 </video>
 
 ## Edición múltiple

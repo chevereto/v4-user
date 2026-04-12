@@ -1,4 +1,4 @@
-# 🤙 Perfil
+# Perfil
 
 `/settings/profile`
 

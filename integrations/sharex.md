@@ -2,7 +2,7 @@
 sidebarDepth: 1
 ---
 
-# 🌈 ShareX
+# ShareX
 
 [ShareX](https://en.wikipedia.org/wiki/ShareX) is an utility for Windows that allows you to upload images, screen captures, text and other kind of content to several providers. You can easily use ShareX with your Chevereto website to upload images directly from your computer thanks to the [Chevereto API V1](https://v4-docs.chevereto.com/developer/api/api-v1.html).
 
@@ -22,20 +22,20 @@ For older ShareX versions you need to manually import Chevereto to ShareX. First
 
 ```json
 {
-    "Name": "Chevereto",
-    "RequestType": "POST",
-    "RequestURL": "http://mysite.com/api/1/upload", // edit this
-    "FileFormName": "source",
-    "Arguments": {
-    "key": "your API key goes here", // edit this
-    "format": "redirect",
-    "source": "%input"
-    },
-    "ResponseType": "RedirectionURL",
-    "RegexList": [],
-    "URL": "",
-    "ThumbnailURL": "",
-    "DeletionURL": ""
+"Name": "Chevereto",
+"RequestType": "POST",
+"RequestURL": "http://mysite.com/api/1/upload", // edit this
+"FileFormName": "source",
+"Arguments": {
+"key": "your API key goes here", // edit this
+"format": "redirect",
+"source": "%input"
+},
+"ResponseType": "RedirectionURL",
+"RegexList": [],
+"URL": "",
+"ThumbnailURL": "",
+"DeletionURL": ""
 }
 ```
 

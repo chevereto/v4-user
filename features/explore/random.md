@@ -1,4 +1,4 @@
-# 🔀 Modo aleatorio
+# Modo aleatorio
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/random.png" width="400"/>
 

@@ -1,7 +1,7 @@
-# 🆙 Subir local
+# Subir local
 
 <video class="media-screen" width="100%" controls autoplay>
-    <source src="../../src/manual/upload/upload.webm" type="video/webm">
+<source src="../../src/manual/upload/upload.webm" type="video/webm">
 </video>
 
 * Click en el botón **Subir** ubicado en la barra superior
@@ -9,10 +9,10 @@
 * Puedes **arrastrar y soltar**
 * También **copiar y pegar**
 * Opcionalmente se puede configurar:
-  * Album (requiere [🔐 Ingreso](../../user/account/login.md))
-  * Categoría
-  * Tiempo de expiración
-  * Bandera NSFW (contenido no seguro)
+* Album (requiere [ Ingreso](../../user/account/login.md))
+* Categoría
+* Tiempo de expiración
+* Bandera NSFW (contenido no seguro)
 * Click en el botón **Subir**
 
 ## Opciones avanzadas
@@ -39,7 +39,7 @@ Una vez la subida finalice se puede crear nuevo álbum y acceder a los códigos 
 
 ### Crear nuevo album
 
-* Click en el link **Crear nuevo album** (requiere [🔐 Ingreso](../../user/account/login.md))
+* Click en el link **Crear nuevo album** (requiere [ Ingreso](../../user/account/login.md))
 * Completar y **Enviar el formulario**
 
 ### Códigos de inserción

@@ -2,7 +2,7 @@
 sidebarDepth: 1
 ---
 
-# 🔌 Popup Upload Plugin
+# Popup Upload Plugin
 
 The popup upload plugin (PUP) is a small file that allows to provide external image uploading via a small JavaScript file.
 

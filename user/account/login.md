@@ -1,4 +1,4 @@
-# 🔐 Ingreso
+# Ingreso
 
 Al ingresar se asociara la actividad y contenido a la cuenta de usuario.
 

@@ -1,4 +1,4 @@
-# 💖 Me gusta
+# Me gusta
 
 Esta sección exhibe el contenido marcado como "Me gusta" por el usuario.
 

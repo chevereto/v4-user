@@ -8,7 +8,7 @@ actionLink: /account/signup
 footer: User's Manual for Chevereto V4
 ---
 
-# 👩‍💻 User Manual
+# User Manual
 
 Welcome to the Chevereto V4 User Manual. This documentation contains all what's need to know about using a Chevereto-based system.
 

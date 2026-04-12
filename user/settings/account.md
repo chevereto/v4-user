@@ -1,4 +1,4 @@
-# 🎩 Cuenta
+# Cuenta
 
 `/settings`
 
@@ -8,7 +8,7 @@ En esta sección se pueden ajustar las configuraciones generales de cuenta de us
 
 Para acceder a los ajustes de cuenta desde **cualquier lugar**:
 
-* En la barra superior, click en el **Ícono de usuario** (requiere [🔐 Ingreso](../account/login.md))
+* En la barra superior, click en el **Ícono de usuario** (requiere [ Ingreso](../account/login.md))
 * Click en **Ajustes**
 
 <img class="media-screen" src="../../src/manual/settings/account/settings.png" width="400"/>
@@ -41,7 +41,7 @@ Puede configurar la eliminación automatica del contenido subido. El rango va de
 
 Active o desactive datos **Exif**(*), estos son metadatos contenidos en las imágenes. Cuando esta deshabilitado Chevereto removerá esa información del archivo de imagen.
 
-::: tip 📷 Exif
+::: tip  Exif
 Los metadatos Exif brindan información específica sobre las imágenes capturadas por una cámara digital. Incluyendo marca de tiempo, exposición, lugar, etc.
 :::
 

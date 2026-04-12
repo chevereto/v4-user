@@ -1,2 +1,2 @@
-# 🗂️ Categorías
+# Categorías
 
