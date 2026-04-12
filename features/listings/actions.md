@@ -28,9 +28,10 @@ General listings are those of **Explore** and **search results**. In this contex
 
 | Action                   | Key   |
 | ------------------------ | ----- |
-| Get codes                | `K`   |
+| Get embed codes          | `K`   |
+| (*) Flag as safe         | `V`   |
+| (*) Flag as unsafe       | `F`   |
 | (*) Assign category      | `C`   |
-| (*) Mark as unsafe       | `F`   |
 
 ## User listings
 
@@ -51,9 +52,10 @@ In user listings Chevereto allows the following options for content owners and a
 
 | Action               | Key |
 | -------------------- | --- |
-| Get codes            | `K` |
+| Get embed codes      | `K` |
+| Flag as safe         | `V` |
+| Flag as unsafe       | `F` |
 | Assign category      | `C` |
-| Mark as unsafe       | `F` |
 | Like                 | `L` |
 | Share                | `S` |
 
@@ -90,9 +92,9 @@ Or click the **Edit** button found to the left of the album.
 Select the privacy type for your album:
 
 * Public
-* Private (Only me)
-* Private (Anyone with link)
-* Private (Password protected)
+* Private (just me)
+* Private (anyone with the link)
+* Private (password protected)
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/privacy.png" width="500"/>
 
@@ -170,7 +172,7 @@ Once the new sub-album is created, you can add more images (P) or move existing 
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/cover.png" width="400"/>
 
-## Get codes (K)
+## Get embed codes (K)
 
 * Select one or more images and use the `K` shortcut.
 
@@ -187,7 +189,12 @@ Or use the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/assing.png" width="500"/>
 
-## Mark as unsafe (F)
+## Flag as safe (V)
+
+* Select one or more images and use the `V` shortcut.
+Or use the actions menu on the right.
+
+## Flag as unsafe (F)
 
 * Select one or more images and use the `F` shortcut.
 Or use the actions menu on the right.

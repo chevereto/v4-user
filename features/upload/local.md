@@ -5,9 +5,9 @@
 </video>
 
 * Click on the **Upload** button located in the top bar
-* **Select** the images to upload
-* You can **drag and drop**
-* Also **copy and paste**
+* The upload page shows: **Drag and drop or paste files here to upload**
+* You can also click **browse from your computer** to select files
+* Supported formats: **AVIF JPG PNG BMP GIF WEBP MOV MP4 WEBM** (max 8 GB per file)
 * Optionally you can configure:
 * Album (requires [Login](../../user/account/login.md))
 * Category

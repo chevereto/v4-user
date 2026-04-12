@@ -8,16 +8,22 @@ In this section you can configure the user API key, which allows you to use the 
 
 ## API Key
 
-### First time
+The API key is auto-generated. A sample curl request is shown on the page:
 
-When you access this section for the first time, the user API key will be generated automatically:
+```sh
+curl --fail-with-body -X POST \
+    -H "X-API-Key: YOUR_API_KEY" \
+    -H "Content-Type: multipart/form-data" \
+    -F "source=@image.jpeg" \
+    http://yoursite/api/1/upload
+```
 
-<img class="media-screen" src="../../src/manual/settings/account/API.png" width="500"/>
+Check the [API V1](https://v4-docs.chevereto.com/developer/api/api-v1.html) documentation to learn more.
 
-This key is displayed **only once**, save it in a safe place. For greater security, after you have seen the key, it will be displayed in the following way:
+### Viewing your key
 
-<img class="media-screen" src="../../src/manual/settings/account/APIOC.png" width="500"/>
+The API key is displayed **only once** — store it in a secure location as it will be shown just once. After that, only a masked version is visible.
 
-### Regenerate key
+### Regen key
 
-Click on the **Regenerate key** button to invalidate the current key and generate another one.
+Click the **Regen key** button to invalidate the current key and generate a new one.

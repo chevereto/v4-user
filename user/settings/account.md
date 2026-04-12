@@ -37,21 +37,29 @@ You can configure automatic deletion of uploaded content. The range goes from 5 
 
 <img class="media-screen" src="../../src/manual/settings/account/autodelete.png" width="500"/>
 
-## Image Exif data
+## Keep EXIF data
 
-Enable or disable **Exif** data(*), these are metadata contained in images. When disabled, Chevereto will remove that information from the image file.
+Enable or disable **Exif** data, these are metadata contained in images. When disabled, Chevereto will remove that information from the image file. The sub-option **Keep EXIF data on upload** controls whether EXIF is preserved at upload time.
 
 ::: tip Exif
-Exif metadata provides specific information about images captured by a digital camera. Including timestamp, exposure, location, etc.
+Exif metadata provides specific information about images captured by a digital camera, including timestamp, exposure, location, etc.
 :::
 
 <img class="media-screen" src="../../src/manual/settings/account/exif.png" width="400"/>
 
+## Automatic metadata tags
+
+When enabled, Chevereto will **assign camera model tag on upload** automatically based on the image EXIF data.
+
+## Newsletter
+
+Controls whether Chevereto sends you emails with news. Check **Send me emails with news about Chevereto** to opt in.
+
 ## Content settings
 
-### Do not show unsafe content
+### Show not safe content in listings
 
-When you check this option, NSFW images (not safe for work) will not be shown in the listings.
+When enabled, NSFW content (not safe for work) from other users will be visible in listings. When unchecked, unsafe content is hidden.
 
 <img class="media-screen" src="../../src/manual/settings/account/content.png" width="400"/>
 
