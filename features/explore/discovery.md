@@ -1,6 +1,6 @@
 # Discovery
 
-The listings in the discovery section allow you to list images, albums and users using general interest selection criteria.
+The listings in the discovery section allow you to list media, albums and users using general interest selection criteria.
 
 ## Discovery listings
 

@@ -24,7 +24,7 @@ In all listings you can select (or not) all items in them. Administrators can de
 
 General listings are those of **Explore** and **search results**. In this context, only the following actions will exist.
 
-### Images
+### Media
 
 | Action                   | Key   |
 | ------------------------ | ----- |
@@ -48,7 +48,7 @@ In user listings Chevereto allows the following options for content owners and a
 | Select all       | `.`   |
 | Clear selection  | `Z`   |
 
-### Image shortcuts
+### Media shortcuts
 
 | Action               | Key |
 | -------------------- | --- |
@@ -98,8 +98,8 @@ Select the privacy type for your album:
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/privacy.png" width="500"/>
 
-:::tip Private Images
-Images will be private if they are within a private album or sub-album. Images on their own cannot be private.
+:::tip Private media
+Media will be private if it is within a private album or sub-album. Media on its own cannot be private.
 :::
 
 ## Delete album (Del)
@@ -115,10 +115,10 @@ Or click the album and then click the **Delete** button found above the album ti
 
 ## Move to album (M)
 
-* Select the images or albums.
+* Select the media or albums.
 * Use the `M` command and submit.
 
-You can move to an existing album or create a new album. All images or albums will be moved to the album you choose.
+You can move to an existing album or create a new album. All media or albums will be moved to the album you choose.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/move-album.png" width="500"/>
 
@@ -129,7 +129,7 @@ You can also find this option in the actions menu on the right.
 ## Upload to album (P)
 
 To add more content to the album:
-* Click the **Upload to album** button or use the `P` shortcut in the album where you want to add more images.
+* Click the **Upload to album** button or use the `P` shortcut in the album where you want to add more media.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/upload-album.png" width="400"/>
 
@@ -160,7 +160,7 @@ To add more content to the album:
 
 Find nested albums under the album description, in the **Sub albums** tab.
 
-Once the new sub-album is created, you can add more images (P) or move existing ones from another album (M).
+Once the new sub-album is created, you can add more media (P) or move existing ones from another album (M).
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/settings/user/actions/sub-album.webm" type="video/webm">
@@ -168,13 +168,13 @@ Once the new sub-album is created, you can add more images (P) or move existing 
 
 ## Album cover (H)
 
-* To select an image for the album cover, click on the image of your preference and scroll down to the information. You will find the cover option next to the download icon. Click or use the **H** shortcut to select as cover.
+* To select a media item for the album cover, click on the item of your preference and scroll down to the information. You will find the cover option next to the download icon. Click or use the **H** shortcut to select as cover.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/cover.png" width="400"/>
 
 ## Get embed codes (K)
 
-* Select one or more images and use the `K` shortcut.
+* Select one or more media items and use the `K` shortcut.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/codes-imgs.png" width="500"/>
 
@@ -184,32 +184,32 @@ You can also find this option in the actions menu on the right.
 
 ## Assign category (C)
 
-* Select one or more images and use the `C` shortcut.
+* Select one or more media items and use the `C` shortcut.
 Or use the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/assing.png" width="500"/>
 
 ## Flag as safe (V)
 
-* Select one or more images and use the `V` shortcut.
+* Select one or more media items and use the `V` shortcut.
 Or use the actions menu on the right.
 
 ## Flag as unsafe (F)
 
-* Select one or more images and use the `F` shortcut.
+* Select one or more media items and use the `F` shortcut.
 Or use the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/flag.png" width="500"/>
 
 ## Like (L)
 
-A simple way to **Like** content is by clicking the heart icon of the image or album you are viewing.
+A simple way to **Like** content is by clicking the heart icon of the media or album you are viewing.
 
-* Go to the image you like and use the `L` command
-* You can also find this option next to the **Share** button of the image
+* Go to the media you like and use the `L` command
+* You can also find this option next to the **Share** button of the media
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/like.png" width="400"/>
 
 :::tip
-[Image Information](../explorer/explore.md)
+[Media Information](../explorer/explore.md)
 :::

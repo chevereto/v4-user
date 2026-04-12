@@ -17,7 +17,7 @@
 
 ## Advanced options
 
-After selecting the images to upload you can edit any of them by clicking on the preview.
+After selecting the media to upload you can edit any of them by clicking on the preview.
 
 <img class="media-screen" src="../../src/manual/upload/upload_adv.png" width="500"/>
 
@@ -26,7 +26,7 @@ For **each file** to upload Chevereto allows you to adjust the following values:
 * Title
 * Album
 * Category
-* Resize image
+* Resize
 * Auto delete
 * NSFW flag (unsafe content)
 * Description

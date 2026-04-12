@@ -1,6 +1,6 @@
 # Categories
 
-Categories are labels used to organize content across the site. Any image can be assigned to a category, and each category gets its own public listing page.
+Categories are labels used to organize content across the site. Any media can be assigned to a category, and each category gets its own public listing page.
 
 ## Browsing a category
 

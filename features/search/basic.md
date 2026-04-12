@@ -1,6 +1,6 @@
 # Basic search
 
-In Chevereto you can search users, albums, and images.
+In Chevereto you can search users, albums, and media.
 
 To perform a basic search:
 

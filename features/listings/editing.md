@@ -20,7 +20,7 @@ The editing options in Chevereto allow you to edit content present in a listing.
 
 Each item has its own editing options:
 
-### Images
+### Media
 
 * Delete
 * Create album

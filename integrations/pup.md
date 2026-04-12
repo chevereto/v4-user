@@ -4,15 +4,15 @@ sidebarDepth: 1
 
 # Popup Upload Plugin
 
-The popup upload plugin (PUP) is a small file that allows to provide external image uploading via a small JavaScript file.
+The popup upload plugin (PUP) is a small file that allows to provide external media uploading via a small JavaScript file.
 
 ::: tip
-When PUP is enabled, the route `/plugin` shows the instructions in how to add image uploading functionality to other websites.
+When PUP is enabled, the route `/plugin` shows the instructions in how to add media uploading functionality to other websites.
 :::
 
 ## How it works
 
-PUP binds user-editable content with an upload button that will trigger an image upload dialog and it will auto handle the codes needed for image insertion. End-users will experience a fluid and neat process without leaving the original website.
+PUP binds user-editable content with an upload button that will trigger a media upload dialog and it will auto handle the codes needed for media insertion. End-users will experience a fluid and neat process without leaving the original website.
 
 ## Supported devices
 
@@ -62,7 +62,7 @@ Named color palette of the button or a comma-separated list of colors (HEX, RGB,
 
 ### `auto-insert`
 
-Embed codes to auto insert in the target editable content. Codes using `full`, `medium` or `thumbnail` will link to the image viewer page.
+Embed codes to auto insert in the target editable content. Codes using `full`, `medium` or `thumbnail` will link to the media page.
 
 Use `0` to disable auto insert.
 
@@ -72,7 +72,7 @@ Use `0` to disable auto insert.
 
 ### `auto-close`
 
-A boolean indicating if the popup should auto close after the image is inserted.
+A boolean indicating if the popup should auto close after the media is inserted.
 
 Use `0` to disable auto-close.
 
