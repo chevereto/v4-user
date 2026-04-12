@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'pup.md' => '🔌 PUP',
-    'sharex.md' => '🌈 ShareX',
+    'pup.md' => 'PUP',
+    'sharex.md' => 'ShareX',
 ];

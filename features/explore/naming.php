@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'menu.md' => '🌎️ Menú Explorar',
-    'discovery.md' => '🌠 Descubrimiento',
-    'categories.md' => '🗂️ Categorías',
-    'random.md' => '🔀 Modo aleatorio',
+    'menu.md' => 'Explore Menu',
+    'discovery.md' => 'Discovery',
+    'categories.md' => 'Categories',
+    'random.md' => 'Random Mode',
 ];
