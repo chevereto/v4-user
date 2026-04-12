@@ -1,34 +1,34 @@
-# Imagen
+# Image
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/img-info.png" width="800"/>
 
-## Información y edición
+## Information and editing
 
-Bajo la foto y la izquierda, se encuentra el título de la imagen, álbum al que pertenece y hace cuanto se subió.
+Below the photo on the left, you will find the image title, the album it belongs to, and how long ago it was uploaded.
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/edit-del.png" width="400"/>
 
-### Miniaturas contenido del álbum
+### Album content thumbnails
 
-Las imágenes que pertenecen a un mismo álbum se muestran en miniaturas agrupadas al pie de la imagen. Usted puede navegar por las imágenes del álbum haciendo click en las miniaturas.
+Images that belong to the same album are displayed as thumbnails grouped at the bottom of the image. You can navigate through the album images by clicking on the thumbnails.
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/imgs-album.png" width="500"/>
 
-## Descargar, compartir y más
+## Download, share and more
 
-Bajo la imagen y a la derecha se encuentran los botones:
+Below the image on the right you will find the buttons:
 
-* Descargar imagen
-* Portada de álbum (cover)
-* Me gusta
-* Compartir
+* Download image
+* Album cover
+* Like
+* Share
 kv
-Un poco más abajo el número de visualizaciones:
+A little further down the number of views:
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/botones.png" width="400"/>
 
-## Enlaces directos/Urls
+## Direct links/URLs
 
-Bajo la información se encuentran los enlaces directos y más **Acerca** de la imagen.
+Below the information you will find the direct links and more **About** the image.
 
 <img class="media-screen" src="../../src/manual/explorer/explorer/url.png" width="600"/>

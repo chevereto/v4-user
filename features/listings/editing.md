@@ -1,41 +1,41 @@
-# Edición
+# Editing
 
-Requiere [ Ingreso](../../user/account/login.md).
+Requires [ Login](../../user/account/login.md).
 
-Las opciones de edición en Chevereto permiten editar el contenido presente en un listado. Dependiendo del contexto del listado se ofrecerán distintas [Acciones](actions.md).
+The editing options in Chevereto allow you to edit content present in a listing. Depending on the context of the listing, different [Actions](actions.md) will be offered.
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/settings/user/actions/actions.webm" type="video/webm">
 </video>
 
-## Edición múltiple
+## Multiple Editing
 
-* Para seleccionar todo el listado click en **Todo** o la tecla `.`
-* Click en la **casilla de verificación** para seleccionar elementos
-* **Click derecho** (long press) para seleccionar elementos
-* **Arrastre** selección con el cursor para seleccionar elementos
-* Click en **Acciones**
+* To select all items in the listing click **All** or the `.` key
+* Click the **checkbox** to select items
+* **Right-click** (long press) to select items
+* **Drag** selection with the cursor to select items
+* Click **Actions**
 
-## Edición individual
+## Individual Editing
 
-Cada elemento tiene sus propias opciones de edición:
+Each item has its own editing options:
 
-### Imágenes
+### Images
 
-* Eliminar
-* Crear álbum
-* Trasladar
-* Editar
-* Bandera NSFW (contenido no seguro)
-* Me gusta
-* Compartir
+* Delete
+* Create album
+* Move
+* Edit
+* NSFW flag (unsafe content)
+* Like
+* Share
 
-### Álbumes
+### Albums
 
-* Eliminar
-* Trasladar
-* Editar
-* Me gusta
-* Compartir
+* Delete
+* Move
+* Edit
+* Like
+* Share
 
 <!-- <img class="media-screen" src="../../src/manual/settings/user/actions/tools-img.png" width="500"/> -->

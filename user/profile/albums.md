@@ -1,20 +1,20 @@
-# Álbumes
+# Albums
 
-En esta sección se encuentran los álbumes del usuario.
+In this section are the user's albums.
 
 <img class="media-screen" src="../../src/manual/settings/user/content/user-album.png" width="600"/>
 
-## Acceder a mis álbumes
+## Access my albums
 
-* En la barra superior, click en el **Ícono de usuario** (requiere [ Ingreso](../account/login.md))
-* Click en **Álbumes**
+* In the top bar, click on the **User Icon** (requires [ Login](../account/login.md))
+* Click on **Albums**
 
-## Crear nuevo album
+## Create new album
 
-Desde cualquier **sección de usuario**:
+From any **user section**:
 
-* Click en **Crear nuevo album** (requiere [ Ingreso](../account/login.md))
-* Completar y enviar el **formulario**
-* Al finalizar se **redireccionará** al album recién creado
+* Click on **Create new album** (requires [ Login](../account/login.md))
+* Complete and submit the **form**
+* When finished, you will be **redirected** to the newly created album
 
 ` wip - from uploader`

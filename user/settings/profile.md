@@ -1,35 +1,35 @@
-# Perfil
+# Profile
 
 `/settings/profile`
 
-En esta sección puede configurar los ajustes de su perfil de usuario.
+In this section you can configure the settings of your user profile.
 
 <!-- <img class="media-screen" src="../../src/manual/settings/account/profile.png" width="800"/> -->
 
 ## Avatar
 
-El avatar corresponde a la imagen de usuario y se usará extensivamente para indicar al usuario y/o su contenido.
+The avatar corresponds to the user image and will be used extensively to indicate the user and/or their content.
 
-## Privacidad
+## Privacy
 
-El perfil de usuario puede ser publico o privado. Cuando el perfil es privado, se oculta a otros la identidad del usuario en sus interacciones con el sistema.
+The user profile can be public or private. When the profile is private, the user's identity is hidden from others in their interactions with the system.
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/privacy.png" width="400"/>
 
-## Nombre
+## Name
 
-El nombre corresponde al nombre de usuario, esto es idealmente el nombre real del usuario.
+The name corresponds to the user name, this is ideally the user's real name.
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/name.png" width="600"/>
 
-## Página web
+## Website
 
-La página web corresponde a la URL de usuario, esto es el página web personal o cualquier otra URL.
+The website corresponds to the user URL, this is the personal website or any other URL.
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/web.png" width="600"/>
 
 ## Bio
 
-La biografía corresponde a una auto-descripción, esto es lo que le cuentas a otros sobre ti.
+The biography corresponds to a self-description, this is what you tell others about yourself.
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/bio.png" width="600"/>

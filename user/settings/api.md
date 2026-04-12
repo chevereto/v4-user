@@ -2,22 +2,22 @@
 
 `/settings/api`
 
-En esta sección puede configurar la llave API del usuario, la cual permite usar la [API de Chevereto](https://v4-docs.chevereto.com/developer/api/api-v1.html).
+In this section you can configure the user API key, which allows you to use the [Chevereto API](https://v4-docs.chevereto.com/developer/api/api-v1.html).
 
 <img class="media-screen" src="../../src/manual/settings/account/set-api.png" width="500"/>
 
-## LLave API
+## API Key
 
-### Primera vez
+### First time
 
-Cuando acceda por primera vez a esta sección se generara automáticamente la llave API de usuario:
+When you access this section for the first time, the user API key will be generated automatically:
 
 <img class="media-screen" src="../../src/manual/settings/account/API.png" width="500"/>
 
-Esta llave se muestra **una sola vez**, guárdela en algún lugar seguro. Para mayor seguridad, luego de conocer la llave esta se presentará de la siguiente manera:
+This key is displayed **only once**, save it in a safe place. For greater security, after you have seen the key, it will be displayed in the following way:
 
 <img class="media-screen" src="../../src/manual/settings/account/APIOC.png" width="500"/>
 
-### Regenerar llave
+### Regenerate key
 
-Haga click en el botón **Regenerar llave** para invalidar la llave actual y generar otra.
+Click on the **Regenerate key** button to invalidate the current key and generate another one.

@@ -1,16 +1,16 @@
-# Crear cuenta
+# Create Account
 
-Registrar una cuenta permitirá asociar el contenido a un usuario y acceder a otras funcionalidades de Chevereto.
+Creating an account will allow you to associate content with a user and access other Chevereto features.
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/screen/signup.webm" type="video/webm">
 </video>
 
-* En la barra superior, click en **Entrar**
-* En siguiente ventana click en **Registrarse**
-* Complete el **formulario de registro**
-* Seleccione la casilla de los **términos** y **políticas de privacidad**
-* Click en **Crear cuenta** para realizar el registro
+* In the top bar, click on **Login**
+* In the next window click on **Sign Up**
+* Complete the **registration form**
+* Select the checkbox for **terms** and **privacy policies**
+* Click on **Create account** to complete the registration
 
 <!-- <img class="media-screen" src="../../src/screen/entrar.png" width="400"/> -->
 <!-- <img class="media-screen" src="../../src/screen/login.png" width="400"/> -->

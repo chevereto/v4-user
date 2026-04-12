@@ -1,27 +1,27 @@
-# Descubrimiento
+# Discovery
 
-Los listados de la sección descubrimiento permiten listar imágenes, álbumes y usuarios usando criterios de selección de interés general.
+The listings in the discovery section allow you to list images, albums and users using general interest selection criteria.
 
-## Listados
+## Listings
 
-### Reciente
+### Recent
 
-Ordena el contenido por fecha de subida, más reciente primero.
+Sorts content by upload date, most recent first.
 
-### Tendencia
+### Trending
 
-Ordena el contenido por vistas, más vistos primero.
+Sorts content by views, most viewed first.
 
 ### Popular
 
-Ordena el contenido por "me gusta", más gustado primero.
+Sorts content by "likes", most liked first.
 
-### Animado
+### Animated
 
-Igual que reciente, pero para archivos GIF animados.
+Same as recent, but for animated GIF files.
 
-### Siguiendo
+### Following
 
-Require [ Ingreso](../../user/account/login.md)).
+Requires [ Login](../../user/account/login.md)).
 
-Muestra el contenido subido por usuarios seguidos por el usuario.
+Displays content uploaded by users followed by the user.

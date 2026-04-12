@@ -1,15 +1,15 @@
-# Búsqueda básica
+# Basic search
 
-En Chevereto puede buscar usuarios, álbumes e imágenes.
+In Chevereto you can search users, albums, and images.
 
-Para realizar una búsqueda básica:
+To perform a basic search:
 
-* En la barra superior click en el  **Ícono de búsqueda**
+* In the top bar click on the **Search icon**
 
 <img class="media-screen" src="../../src/manual/explorer/search/search.png" width="400"/>
 
-* Ingresar la **palabra clave**
+* Enter the **keyword**
 
 <img class="media-screen" src="../../src/manual/explorer/search/search-av.png" width="400"/>
 
-* **Enviar** el formulario
+* **Submit** the form

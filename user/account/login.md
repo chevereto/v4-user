@@ -1,10 +1,10 @@
-# Ingreso
+# Login
 
-Al ingresar se asociara la actividad y contenido a la cuenta de usuario.
+When you log in, the activity and content will be associated with your user account.
 
-* Click en **Entrar** en la barra superior
-* Complete el **formulario de ingreso**
-* **Envíe el formulario** para realizar el ingreso
+* Click on **Login** in the top bar
+* Complete the **login form**
+* **Submit the form** to perform the login
 
 <!-- <img class="media-screen" src="../../src/screen/entrar.png" width="400"/> -->
 <!-- <img class="media-screen" src="../../src/screen/login.png" width="400"/> -->

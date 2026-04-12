@@ -1,208 +1,208 @@
-# Acciones
+# Actions
 
-Requiere [ Ingreso](../../user/account/login.md) y [ Administración](https://v4-admin.chevereto.com/) para las acciones marcadas con (*).
+Requires [ Login](../../user/account/login.md) and [ Administration](https://v4-admin.chevereto.com/) for actions marked with (*).
 
-## Activando el menú acciones
+## Activating the actions menu
 
-Para activar el menú acciones seleccione contenido en el listado. Al hacer esto aparecerá el menú acciones en la **parte superior** del listado.
+To activate the actions menu, select content in the listing. When you do this, the actions menu will appear at the **top** of the listing.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/action-edit-album.png" width="800"/>
 
-El menu de acciones es contextual, aparece dependiendo del contenido del listado y de quien solicita ese listado. Las opciones de usuario y administrador se activarán según corresponda.
+The actions menu is contextual, appearing depending on the listing content and who is requesting that listing. User and administrator options will be activated as appropriate.
 
-## Acciones comunes
+## Common Actions
 
-En todos los listados se pueden seleccionar (o no) todos los elementos del mismo. Los administradores pueden eliminar contenido en los listados.
+In all listings you can select (or not) all items in them. Administrators can delete content in listings.
 
-| Acción            | Tecla |
-| ----------------- | ----- |
-| Seleccionar todo  | `.`   |
-| Limpiar selección | `Z`   |
-| (*) Eliminar      | `Del` |
+| Action           | Key   |
+| ---------------- | ----- |
+| Select all       | `.`   |
+| Clear selection  | `Z`   |
+| (*) Delete       | `Del` |
 
-## Acciones de listados generales
+## General listings actions
 
-Los listados generales son los de **Explorar** y los de **resultados de búsqueda**. En este contexto existirán solo las siguientes acciones.
+General listings are those of **Explore** and **search results**. In this context, only the following actions will exist.
 
-### Imágenes
+### Images
 
-| Acción                    | Tecla |
-| ------------------------- | ----- |
-| Obtener códigos           | `K`   |
-| (*) Asignar categoría     | `C`   |
-| (*) Marcar como no segura | `F`   |
+| Action                   | Key   |
+| ------------------------ | ----- |
+| Get codes                | `K`   |
+| (*) Assign category      | `C`   |
+| (*) Mark as unsafe       | `F`   |
 
-## Listados de usuario
+## User listings
 
-En los listados de usuario Chevereto permite las siguientes opciones para propietarios del contenido y administradores.
+In user listings Chevereto allows the following options for content owners and administrators.
 
-### Atajos comunes
+### Common shortcuts
 
-| Acción            | Tecla |
-| ----------------- | ----- |
-| Editar            | `E`   |
-| Compartir         | `S`   |
-| Trasladar a álbum | `M`   |
-| Eliminar          | `Del` |
-| Seleccionar todo  | `.`   |
-| Limpiar selección | `Z`   |
+| Action           | Key   |
+| ---------------- | ----- |
+| Edit             | `E`   |
+| Share            | `S`   |
+| Move to album    | `M`   |
+| Delete           | `Del` |
+| Select all       | `.`   |
+| Clear selection  | `Z`   |
 
-### Atajos para imágenes
+### Image shortcuts
 
-| Acción                | Tecla |
-| --------------------- | ----- |
-| Obtener códigos       | `K`   |
-| Asignar categoría     | `C`   |
-| Marcar como no segura | `F`   |
-| Me gusta              | `L`   |
-| Compartir             | `S`   |
+| Action               | Key |
+| -------------------- | --- |
+| Get codes            | `K` |
+| Assign category      | `C` |
+| Mark as unsafe       | `F` |
+| Like                 | `L` |
+| Share                | `S` |
 
-### Atajos para álbumes
+### Album shortcuts
 
-| Acción          | Tecla |
-| --------------- | ----- |
-| Crear álbum     | `A`   |
-| Subir al álbum  | `P`   |
-| Crear sub álbum | `J`   |
+| Action          | Key |
+| --------------- | --- |
+| Create album    | `A` |
+| Upload to album | `P` |
+| Create sub-album| `J` |
 
-## Crear álbum (A)
+## Create album (A)
 
-* Use el comando `A` desde el perfil de usuario para crear nuevos álbumes.
+* Use the `A` command from your user profile to create new albums.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/create-album.png" width="400"/>
 
-O también puede crear un nuevo álbum con el botón que se encuentra bajo el buscador del perfil.
+You can also create a new album with the button found under the profile search.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/bt-create.png" width="400"/>
 
-## Editar álbum (E)
+## Edit album (E)
 
-* En sus álbumes, click en el álbum a editar y use el comando `E`.
+* In your albums, click the album to edit and use the `E` command.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/edit.png" width="500"/>
 
-O click en el botón **Editar** que se encuentra a la izquierda del álbum.
+Or click the **Edit** button found to the left of the album.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/bt-edit.png" width="400"/>
 
-## Privacidad del álbum
+## Album Privacy
 
-Seleccione el tipo de privacidad para su álbum:
+Select the privacy type for your album:
 
-* Público
-* Privado (Solo yo)
-* Privado (Cualquiera con enlace)
-* Privado (Protegido con contraseña)
+* Public
+* Private (Only me)
+* Private (Anyone with link)
+* Private (Password protected)
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/privacy.png" width="500"/>
 
-:::tip Imágenes privadas
-Las imágenes serán privadas si están dentro de un álbum o sub álbum privado. Las imágenes por si solas no pueden ser privadas.
+:::tip Private Images
+Images will be private if they are within a private album or sub-album. Images on their own cannot be private.
 :::
 
-## Eliminar álbum (Del)
+## Delete album (Del)
 
-* Vaya a sus álbumes y seleccione uno o más álbumes para eliminar.
-* Use el comando `Del` para eliminar y confirme.
+* Go to your albums and select one or more albums to delete.
+* Use the `Del` command to delete and confirm.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/delete-album.png" width="500"/>
 
-O click en el álbum y luego en el botón **Eliminar** que se encuentra sobre el título del álbum.
+Or click the album and then click the **Delete** button found above the album title.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/bt-del.png" width="400"/>
 
-## Trasladar a álbum (M)
+## Move to album (M)
 
-* Seleccione las imágenes o álbumes.
-* Use el comando `M` y envíe.
+* Select the images or albums.
+* Use the `M` command and submit.
 
-Puede trasladas a un álbum existente o crear un nuevo álbum. Todas las imágenes o álbumes se moverán a al álbum que escoja.
+You can move to an existing album or create a new album. All images or albums will be moved to the album you choose.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/move-album.png" width="500"/>
 
-Esta opción también la encuentra en el menú de acciones a la derecha.
+You can also find this option in the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/bt-move.png" width="400"/>
 
-## Subir al álbum (P)
+## Upload to album (P)
 
-Para agregar más contenido al álbum:
-* Click en el botón **Subir al álbum** o use el atajo `P` en el álbum en donde desee agregar más imágenes.
+To add more content to the album:
+* Click the **Upload to album** button or use the `P` shortcut in the album where you want to add more images.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/upload-album.png" width="400"/>
 
-## Compartir álbum (S)
+## Share album (S)
 
-* Vaya al álbum que desea compartir
-* Use el comando `S` y se abrirá el cuadro con la url y redes sociales para compartir.
+* Go to the album you want to share
+* Use the `S` command and a box with the URL and social networks to share will open.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/share-album.png" width="500"/>
 
-## Seleccionar todo (.)
+## Select all (.)
 
-* Click en **Todo** o use la tecla `.`
+* Click **All** or use the `.` key
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/sel-album.png" width="800"/>
 
-* Para limpiar la selección, click en **Limpiar** (a la derecha) o use la tecla `Z`. O simplemente use el atajo `J`
+* To clear the selection, click **Clear** (on the right) or use the `Z` key. Or simply use the `J` shortcut
 
 ## Sub album (J)
 
-* Click en el botón **Sub-álbum** que se encuentra sobre el título del álbum.
+* Click the **Sub-album** button found above the album title.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/sub-album.png" width="400"/>
 
-* Complete los datos, la privacidad y guarde los cambios.
+* Complete the information, privacy settings, and save the changes.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/create-subalbum.png" width="500"/>
 
-Encuentre los álbumes anidados bajo la descripción del álbum, en la pestaña **Sub álbumes**.
+Find nested albums under the album description, in the **Sub albums** tab.
 
-Una vez creado el nuevo sub álbum, puede agregar más imágenes (P) o mover las existentes desde otro álbum (M).
+Once the new sub-album is created, you can add more images (P) or move existing ones from another album (M).
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/settings/user/actions/sub-album.webm" type="video/webm">
 </video>
 
-## Portada de álbum/Cover (H)
+## Album cover (H)
 
-* Para seleccionar una imagen para portada del álbum (cover), click a la imagen de su preferencia y baje hasta la información. Encontrará la opción de cover junto al ícono de descarga. Click o use el atajo **H** para seleccionar como cover.
+* To select an image for the album cover, click on the image of your preference and scroll down to the information. You will find the cover option next to the download icon. Click or use the **H** shortcut to select as cover.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/cover.png" width="400"/>
 
-## Obtener códigos (K)
+## Get codes (K)
 
-* Seleccione una o más imágenes y use el atajo `K`.
+* Select one or more images and use the `K` shortcut.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/codes-imgs.png" width="500"/>
 
-También encuentra esta opción en el menú de acciones a la derecha.
+You can also find this option in the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/code.png" width="400"/>
 
-## Asignar categoría (C)
+## Assign category (C)
 
-* Seleccione una o más imágenes y use el atajo `C`.
-O use el menú de acciones a la derecha.
+* Select one or more images and use the `C` shortcut.
+Or use the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/assing.png" width="500"/>
 
-## Marcar como no segura (F)
+## Mark as unsafe (F)
 
-* Seleccione una o más imágenes y use el atajo `F`.
-O use el menú de acciones a la derecha.
+* Select one or more images and use the `F` shortcut.
+Or use the actions menu on the right.
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/flag.png" width="500"/>
 
-## Me gusta (L)
+## Like (L)
 
-Una manera sencilla de dar **Me gusta** al contenido, es haciendo click en el ícono de corazón de la imagen o álbum que está visualizando.
+A simple way to **Like** content is by clicking the heart icon of the image or album you are viewing.
 
-* Vaya a la imagen de su agrado y use el comando `L`
-* Esta opción también la encuentra al lado del botón **Compartir** de la imagen
+* Go to the image you like and use the `L` command
+* You can also find this option next to the **Share** button of the image
 
 <img class="media-screen" src="../../src/manual/settings/user/actions/like.png" width="400"/>
 
 :::tip
-[Información de imagen](../explorer/explore.md)
+[Image Information](../explorer/explore.md)
 :::

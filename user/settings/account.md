@@ -1,69 +1,69 @@
-# Cuenta
+# Account
 
 `/settings`
 
-En esta sección se pueden ajustar las configuraciones generales de cuenta de usuario.
+In this section you can adjust the general account settings.
 
-## Acceder a ajustes
+## Access settings
 
-Para acceder a los ajustes de cuenta desde **cualquier lugar**:
+To access account settings from **anywhere**:
 
-* En la barra superior, click en el **Ícono de usuario** (requiere [ Ingreso](../account/login.md))
-* Click en **Ajustes**
+* In the top bar, click on the **User Icon** (requires [Login](../account/login.md))
+* Click on **Settings**
 
 <img class="media-screen" src="../../src/manual/settings/account/settings.png" width="400"/>
 
-Para acceder desde **perfil de usuario**:
+To access from **user profile**:
 
-* Click en el botón **Editar**
+* Click on the **Edit** button
 
 <img class="media-screen" src="../../src/manual/settings/account/set-edit.png" width="400"/>
 
-## Nombre de usuario
+## Username
 
-El nombre de usuario es el identificador alfanumérico de la cuenta. Este identificador es único por usuario.
+The username is the alphanumeric identifier of the account. This identifier is unique per user.
 
 <img class="media-screen" src="../../src/manual/settings/account/username.png" width="500"/>
 
 ## Email
 
-El correo electrónico asociado a la cuenta de usuario. Esta dirección de correo se utilizara para todo tipo de comunicaciones con el usuario.
+The email address associated with the user account. This email address will be used for all types of communications with the user.
 
 <img class="media-screen" src="../../src/manual/settings/account/email.png" width="500"/>
 
-## Auto eliminar subidas
+## Auto delete uploads
 
-Puede configurar la eliminación automatica del contenido subido. El rango va desde 5 minutos, hasta 1 año.
+You can configure automatic deletion of uploaded content. The range goes from 5 minutes to 1 year.
 
 <img class="media-screen" src="../../src/manual/settings/account/autodelete.png" width="500"/>
 
-## Datos Exif de imagen
+## Image Exif data
 
-Active o desactive datos **Exif**(*), estos son metadatos contenidos en las imágenes. Cuando esta deshabilitado Chevereto removerá esa información del archivo de imagen.
+Enable or disable **Exif** data(*), these are metadata contained in images. When disabled, Chevereto will remove that information from the image file.
 
-::: tip  Exif
-Los metadatos Exif brindan información específica sobre las imágenes capturadas por una cámara digital. Incluyendo marca de tiempo, exposición, lugar, etc.
+::: tip Exif
+Exif metadata provides specific information about images captured by a digital camera. Including timestamp, exposure, location, etc.
 :::
 
 <img class="media-screen" src="../../src/manual/settings/account/exif.png" width="400"/>
 
-## Ajustes de contenido
+## Content settings
 
-### No mostrar contenido no seguro
+### Do not show unsafe content
 
-Al marcar esta opción lás imágenes NSFW (no seguras para entorno trabajo) no se mostrarán en los listados.
+When you check this option, NSFW images (not safe for work) will not be shown in the listings.
 
 <img class="media-screen" src="../../src/manual/settings/account/content.png" width="400"/>
 
-## Idioma
+## Language
 
-Chevereto detecta automáticamente el idioma. Adicionalmente se puede forzar el uso de un idioma a elección.
+Chevereto automatically detects the language. Additionally, you can force the use of a language of your choice.
 
 <img class="media-screen" src="../../src/manual/settings/account/language.png" width="500"/>
 
-## Zona horaria
+## Timezone
 
-La zona horaria permite determinar la hora local del usuario.
+The timezone allows you to determine the user's local time.
 
 <img class="media-screen" src="../../src/manual/settings/account/timezone.png" width="500"/>
 

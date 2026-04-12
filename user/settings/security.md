@@ -1,23 +1,23 @@
-# Seguridad
+# Security
 
 `/settings/security`
 
-En esta sección puede configurar la seguridad de su cuenta.
+In this section you can configure the security of your account.
 
-## Autentificación en dos pasos
+## Two-step authentication
 
-La autentificación en dos pasos permite configurar un dispositivo TOTP para una capa adicional de seguridad de cuenta. Cuando esta habilitado,el sistema requerirá el código entregado por la aplicación sincronizada al momento de hacer [ Ingreso](../account/login.md).
+Two-step authentication allows you to configure a TOTP device for an additional layer of account security. When enabled, the system will require the code provided by the synchronized application at the moment of [Login](../account/login.md).
 
-### Habilitar dos pasos
+### Enable two-step
 
-Para habilitar la autentificación en dos pasos:
+To enable two-step authentication:
 
-* Abra su **aplicación TOTP** (Authenticator, 2FA, etc.)
-* Escanee el **código QR**
-* Introduzca el **código OTP** en Chevereto
+* Open your **TOTP application** (Authenticator, 2FA, etc.)
+* Scan the **QR code**
+* Enter the **OTP code** in Chevereto
 
-### Inhabilitar dos pasos
+### Disable two-step
 
-Para inhabilitar la autentificación en dos pasos:
+To disable two-step authentication:
 
-* Click en el botón **Inhabilitar**
+* Click on the **Disable** button

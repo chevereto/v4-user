@@ -1,11 +1,11 @@
-# Búsqueda avanzada
+# Advanced search
 
-En Chevereto se pueden realizar búsquedas avanzadas por combinaciones de palabras clave. También se puede buscar por categoría y administradores de sistema pueden buscar por dirección IP.
+In Chevereto you can perform advanced searches by combinations of keywords. You can also search by category and system administrators can search by IP address.
 
 <img class="media-screen" src="../../src/manual/explorer/search/search-avz.png" width="500"/>
 
-Para realizar una búsqueda avanzada:
+To perform an advanced search:
 
-* Seguir los pasos de [ Búsqueda básica](basic.md)
-* Click en el ícono de  **Engranaje** para abrir la ventana de **búsqueda avanzada**
-* Complete y **envié el formulario**
+* Follow the steps of [Basic search](basic.md)
+* Click on the **Gear** icon to open the **advanced search** window
+* Complete and **submit the form**

@@ -1,8 +1,8 @@
-# Contraseña
+# Password
 
 `/settings/password`
 
-En esta sección puede configurar su contraseña de cuenta. Si no recuerda su contraseña debe [ Recuperar contraseña](../account/password-forgot.md).
+In this section you can configure your account password. If you don't remember your password, you should [Recover password](../account/password-forgot.md).
 
 <img class="media-screen" src="../../src/manual/settings/account/password.png" width="500"/>
 

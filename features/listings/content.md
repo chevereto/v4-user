@@ -1,13 +1,13 @@
-# Listados de contenido
+# Content Listings
 
-Los listados de contenido se refieren a aquellos que listan contenido de un usuario, un album o una categoría.
+Content listings refer to those that list content from a user, an album, or a category.
 
 <img class="media-screen" src="../../src/manual/settings/user/content/order.png" width="600"/>
 
-Estos listados en Chevereto se pueden ordenar por:
+These listings in Chevereto can be sorted by:
 
-* Más reciente
-* Más antiguo
-* Más visto
-* Más me gusta
+* Newest
+* Oldest
+* Most viewed
+* Most liked
 * A-Z

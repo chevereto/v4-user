@@ -1,3 +1,3 @@
-# Siguiendo
+# Following
 
-Esta sección exhibe un listado con el contenido aportado por las personas que sigue el usuario.
+This section displays a list of content provided by the users that the user follows.

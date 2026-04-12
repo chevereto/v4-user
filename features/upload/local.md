@@ -1,50 +1,50 @@
-# Subir local
+# Upload local
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/upload/upload.webm" type="video/webm">
 </video>
 
-* Click en el botón **Subir** ubicado en la barra superior
-* **Seleccione** las imágenes a subir
-* Puedes **arrastrar y soltar**
-* También **copiar y pegar**
-* Opcionalmente se puede configurar:
-* Album (requiere [ Ingreso](../../user/account/login.md))
-* Categoría
-* Tiempo de expiración
-* Bandera NSFW (contenido no seguro)
-* Click en el botón **Subir**
+* Click on the **Upload** button located in the top bar
+* **Select** the images to upload
+* You can **drag and drop**
+* Also **copy and paste**
+* Optionally you can configure:
+* Album (requires [Login](../../user/account/login.md))
+* Category
+* Expiration time
+* NSFW flag (unsafe content)
+* Click on the **Upload** button
 
-## Opciones avanzadas
+## Advanced options
 
-Después de seleccionar las imágenes a subir se puede editar cualquiera de estas haciendo click en la vista previa.
+After selecting the images to upload you can edit any of them by clicking on the preview.
 
 <img class="media-screen" src="../../src/manual/upload/upload_adv.png" width="500"/>
 
-Para **cada archivo** a subir Chevereto permite ajustar los siguientes valores:
+For **each file** to upload Chevereto allows you to adjust the following values:
 
-* Título
-* Álbum
-* Categoría
-* Redimensionar imagen
-* Auto eliminar
-* Bandera NSFW (contenido no seguro)
-* Descripción
+* Title
+* Album
+* Category
+* Resize image
+* Auto delete
+* NSFW flag (unsafe content)
+* Description
 
 <img class="media-screen" src="../../src/manual/upload/advanced.png" width="500"/>
 
-## Post-subida
+## Post-upload
 
-Una vez la subida finalice se puede crear nuevo álbum y acceder a los códigos de inserción.
+Once the upload is complete you can create a new album and access the embed codes.
 
-### Crear nuevo album
+### Create new album
 
-* Click en el link **Crear nuevo album** (requiere [ Ingreso](../../user/account/login.md))
-* Completar y **Enviar el formulario**
+* Click on the **Create new album** link (requires [Login](../../user/account/login.md))
+* Complete and **submit the form**
 
-### Códigos de inserción
+### Embed codes
 
-Los códigos de inserción permitirán insertar el contenido en otras partes. Chevereto proporciona códigos en los siguientes formatos:
+The embed codes will allow you to insert the content in other places. Chevereto provides codes in the following formats:
 
 * BBCode
 * HTML

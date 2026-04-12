@@ -1,6 +1,6 @@
-# Perfil de usuario
+# User Profile
 
-El perfil de usuario exhibe el contenido e información (pública) de un usuario. El perfil de usuario es completamente personalizable y configurable.
+The user profile displays the content and (public) information of a user. The user profile is completely customizable and configurable.
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/settings/user/content/social.webm" type="video/webm">
@@ -8,35 +8,35 @@ El perfil de usuario exhibe el contenido e información (pública) de un usuario
 
 <!-- <img class="media-screen" src="../../src/manual/settings/user/content/my-profile.png" width="600"/> -->
 
-## Acceder a mi perfil
+## Access my profile
 
-* En la barra superior, click en el **Ícono de usuario** (requiere [ Ingreso](../account/login.md))
-* Click en **Mi perfil**
+* In the top bar, click on the **User Icon** (requires [ Login](../account/login.md))
+* Click on **My profile**
 
 <img class="media-screen" src="../../src/manual/settings/user/content/user-content.png" width="400"/>
 
-## Fondo perfil
+## Profile background
 
-Para establecer el fondo de perfil:
+To set the profile background:
 
-* Click en el botón **Subir fondo de perfil** (requiere [ Ingreso](../account/login.md))
+* Click on the **Upload profile background** button (requires [ Login](../account/login.md))
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/background.png" width="600"/>
 
-* Si ya existe un fondo hacer click en el botón **Cambiar fondo** (requiere [ Ingreso](../account/login.md))
+* If a background already exists, click on the **Change background** button (requires [ Login](../account/login.md))
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/back-change.png" width="600"/>
 
-## Búsqueda en usuario
+## User search
 
-Use el buscador del perfil de usuario para buscar contenido aportado por el usuario en particular.
+Use the user profile search to find content provided by the particular user.
 
 <img class="media-screen" src="../../src/manual/settings/user/content/search.png" width="400"/>
 
-## Seguir usuario
+## Follow user
 
-Seguir usuarios permite estar al tanto del contenido aportado por otros usuarios. Este contenido estará disponible en [ Siguiendo](following.md).
+Following users allows you to keep up with the content provided by other users. This content will be available in [ Following](following.md).
 
-Para seguir a un usuario:
+To follow a user:
 
-* Click en el botón **Seguir** (requiere [ Ingreso](../account/login.md))
+* Click on the **Follow** button (requires [ Login](../account/login.md))

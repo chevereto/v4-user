@@ -1,5 +1,5 @@
-# Notificaciones
+# Notifications
 
-Las notificaciones se ubican en la barra superior, al costado del ícono de usuario.
+Notifications are located in the top bar, next to the user icon.
 
 <img class="media-screen" src="../../src/manual/settings/user/content/notification-ex.png" width="400"/>

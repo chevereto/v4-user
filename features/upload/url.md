@@ -1,10 +1,10 @@
-# Subir URL
+# Upload URL
 
-` Esta funcionalidad es exclusiva para administradores de sistema.`
+`This functionality is exclusive to system administrators.`
 
-* Click en el botón **Subir** ubicado en la barra superior
-* Click en **Agregar URL**
-* Complete y **Envíe el formulario**
+* Click on the **Upload** button located in the top bar
+* Click on **Add URL**
+* Complete and **submit the form**
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/upload/addurl.webm" type="video/webm">

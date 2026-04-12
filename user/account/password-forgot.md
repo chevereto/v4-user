@@ -1,11 +1,11 @@
-# Recuperar contraseña
+# Recover Password
 
-En caso de no recordar o extraviar la contraseña y no contar con códigos de respaldo el usuario debe seguir el procedimiento de recuperación de contraseña.
+If you don't remember or have lost your password and don't have backup codes, the user must follow the password recovery procedure.
 
-* Click en **Entrar** en la barra superior
-* Click en **Recuperar contraseña**
-* Complete y **envié el formulario**
-* Se enviarán instrucciones al correo electrónico para proceder a el restablecimiento de contraseña
+* Click on **Login** in the top bar
+* Click on **Recover password**
+* Complete and **submit the form**
+* Instructions will be sent to your email to proceed with password reset
 
 <!-- <img class="media-screen" src="../../src/screen/forgot.png" width="400"/> -->
 <!-- <img class="media-screen" src="../../src/screen/login.png" width="400"/> -->
