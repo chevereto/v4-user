@@ -1,11 +1,11 @@
-# Paleta de color
+# Color Palette
 
-La paleta de color del sistema es configurable y se puede cambiar desde cualquier lugar.
+The system color palette is configurable and can be changed from anywhere.
 
 <video class="media-screen" width="100%" controls autoplay>
 <source src="../../src/manual/settings/account/paletas.webm" type="video/webm">
 </video>
 
-* En la barra superior, click en el **Ícono de usuario** (requiere [ Ingreso](../account/login.md))
-* Ubicar la paleta deseada en la sección **Paletas**
-* Click para **confirmar el cambio** a la paleta deseada
+* In the top bar, click the **User icon** (requires [Login](../account/login.md))
+* Locate the desired palette in the **Palettes** section
+* Click to **confirm the change** to the desired palette
