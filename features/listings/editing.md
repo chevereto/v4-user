@@ -1,6 +1,6 @@
 # Editing
 
-Requires [ Login](../../user/account/login.md).
+Requires [Login](../../user/account/login.md).
 
 The editing options in Chevereto allow you to edit content present in a listing. Depending on the context of the listing, different [Actions](actions.md) will be offered.
 

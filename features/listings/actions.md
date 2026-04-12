@@ -1,6 +1,6 @@
 # Actions
 
-Requires [ Login](../../user/account/login.md) and [ Administration](https://v4-admin.chevereto.com/) for actions marked with (*).
+Requires [Login](../../user/account/login.md).
 
 ## Activating the actions menu
 
@@ -14,11 +14,11 @@ The actions menu is contextual, appearing depending on the listing content and w
 
 In all listings you can select (or not) all items in them. Administrators can delete content in listings.
 
-| Action           | Key   |
-| ---------------- | ----- |
-| Select all       | `.`   |
-| Clear selection  | `Z`   |
-| (*) Delete       | `Del` |
+| Action          | Key   |
+| --------------- | ----- |
+| Select all      | `.`   |
+| Clear selection | `Z`   |
+| Delete          | `Del` |
 
 ## General listings actions
 
@@ -26,12 +26,12 @@ General listings are those of **Explore** and **search results**. In this contex
 
 ### Media
 
-| Action                   | Key   |
-| ------------------------ | ----- |
-| Get embed codes          | `K`   |
-| (*) Flag as safe         | `V`   |
-| (*) Flag as unsafe       | `F`   |
-| (*) Assign category      | `C`   |
+| Action          | Key |
+| --------------- | --- |
+| Get embed codes | `K` |
+| Flag as safe    | `V` |
+| Flag as unsafe  | `F` |
+| Assign category | `C` |
 
 ## User listings
 
@@ -39,33 +39,33 @@ In user listings Chevereto allows the following options for content owners and a
 
 ### Common shortcuts
 
-| Action           | Key   |
-| ---------------- | ----- |
-| Edit             | `E`   |
-| Share            | `S`   |
-| Move to album    | `M`   |
-| Delete           | `Del` |
-| Select all       | `.`   |
-| Clear selection  | `Z`   |
+| Action          | Key   |
+| --------------- | ----- |
+| Edit            | `E`   |
+| Share           | `S`   |
+| Move to album   | `M`   |
+| Delete          | `Del` |
+| Select all      | `.`   |
+| Clear selection | `Z`   |
 
 ### Media shortcuts
 
-| Action               | Key |
-| -------------------- | --- |
-| Get embed codes      | `K` |
-| Flag as safe         | `V` |
-| Flag as unsafe       | `F` |
-| Assign category      | `C` |
-| Like                 | `L` |
-| Share                | `S` |
+| Action          | Key |
+| --------------- | --- |
+| Get embed codes | `K` |
+| Flag as safe    | `V` |
+| Flag as unsafe  | `F` |
+| Assign category | `C` |
+| Like            | `L` |
+| Share           | `S` |
 
 ### Album shortcuts
 
-| Action          | Key |
-| --------------- | --- |
-| Create album    | `A` |
-| Upload to album | `P` |
-| Create sub-album| `J` |
+| Action           | Key |
+| ---------------- | --- |
+| Create album     | `A` |
+| Upload to album  | `P` |
+| Create sub-album | `J` |
 
 ## Create album (A)
 

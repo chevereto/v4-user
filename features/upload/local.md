@@ -24,6 +24,7 @@ After selecting the media to upload you can edit any of them by clicking on the 
 For **each file** to upload Chevereto allows you to adjust the following values:
 
 * Title
+* Tags
 * Album
 * Category
 * Resize

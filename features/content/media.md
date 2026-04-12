@@ -11,6 +11,7 @@ Below the media you will find:
 * **Title** — the media name
 * **Dimensions, format and file size** — e.g. `1429 × 636 — JPG 154.6 KB`
 * **Uploaded to** — the category it belongs to, how long ago it was uploaded, and the view count
+* **Tags** — clickable pill chips linking to each [tag](../explore/tags.md) page, shown only when tags have been assigned
 
 ## Action buttons
 
@@ -52,7 +53,7 @@ Shows technical metadata about the file.
 Requires [Login](../../user/account/login.md). Click the **Edit** button to open the edit form:
 
 * **Title** — optional display name
-* **Tags** — optional comma-separated tags
+* **Tags** — optional comma-separated tags; each tag links to its [tag page](../explore/tags.md) on the media page
 * **Album** — assign to one of your albums
 * **Category** — assign to a site category
 * **Flag not safe** — mark the media as NSFW

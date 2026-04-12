@@ -10,7 +10,7 @@ The user profile displays the content and (public) information of a user. The us
 
 ## Access my profile
 
-* In the top bar, click on the **User Icon** (requires [ Login](../account/login.md))
+* In the top bar, click on the **User Icon** (requires [Login](../account/login.md))
 * Click on **My profile**
 
 <img class="media-screen" src="../../src/manual/settings/user/content/user-content.png" width="400"/>
@@ -19,11 +19,11 @@ The user profile displays the content and (public) information of a user. The us
 
 To set the profile background:
 
-* Click on the **Upload profile background** button (requires [ Login](../account/login.md))
+* Click on the **Upload profile background** button (requires [Login](../account/login.md))
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/background.png" width="600"/>
 
-* If a background already exists, click on the **Change background** button (requires [ Login](../account/login.md))
+* If a background already exists, click on the **Change background** button (requires [Login](../account/login.md))
 
 <img class="media-screen" src="../../src/manual/settings/user/profile/back-change.png" width="600"/>
 
@@ -35,8 +35,8 @@ Use the user profile search to find content provided by the particular user.
 
 ## Follow user
 
-Following users allows you to keep up with the content provided by other users. This content will be available in [ Following](following.md).
+Following users allows you to keep up with the content provided by other users. This content will be available in [Following](following.md).
 
 To follow a user:
 
-* Click on the **Follow** button (requires [ Login](../account/login.md))
+* Click on the **Follow** button (requires [Login](../account/login.md))
