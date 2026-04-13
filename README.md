@@ -4,7 +4,7 @@ heroImage: /logo.svg
 heroText: V4 User Manual
 tagline: Documentation for users of Chevereto V4 based systems
 actionText: Create account →
-actionLink: /account/signup
+actionLink: /user/account/signup
 footer: User's Manual for Chevereto V4
 ---
 
