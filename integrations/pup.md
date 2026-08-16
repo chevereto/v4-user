@@ -99,7 +99,6 @@ Default: `bbcode-embed-medium`
 Values:
 
 ```text
-0
 viewer-links
 direct-links
 frame-links
