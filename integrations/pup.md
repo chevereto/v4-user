@@ -4,193 +4,280 @@ sidebarDepth: 2
 
 # Popup Upload Plugin
 
-The popup upload plugin (PUP) is a small file that allows to provide external media uploading via a small JavaScript file.
+The Popup Upload Plugin (PUP) is a lightweight JavaScript file that adds Chevereto image uploads to external websites.
 
 ::: tip
-When PUP is enabled, the route `/plugin` shows the instructions in how to add media uploading functionality to other websites.
+When PUP is enabled, open `/plugin` on your Chevereto site to get integration instructions.
 :::
 
 ## How it works
 
-PUP binds user-editable content with an upload button that will trigger a media upload dialog and it will auto handle the codes needed for media insertion. End-users will experience a fluid and neat process without leaving the original website.
+PUP attaches an upload button to editable content. When clicked, it opens the upload dialog and inserts the selected embed code automatically.
+
+Users can upload and insert images without leaving the current website.
 
 ## Supported devices
 
-PUP should work in any modern web browser (HTML 5) regardless of the user device (that includes mobile devices). It has been tested and confirmed to work on Windows, Mac, Linux and Android (Chrome).
+PUP works in modern HTML5 browsers on desktop and mobile.
+
+Tested platforms include Windows, macOS, Linux, and Android (Chrome).
 
 ## Installation
 
-Basic installation is easy as copy the following code into any HTML section of the target website. You can add custom options right on this code.
+Add this script tag to any HTML section of the target website:
 
 ```html
 <script async src="//demo.chevereto.com/sdk/pup.js" data-url="https://demo.chevereto.com/upload"></script>
 ```
 
-**Note:** You need to edit `src` and `data-url` to match your Chevereto website.
+Update `src` and `data-url` to match your Chevereto website.
 
-PUP works on the DOM so it doesn't have any server-side dependencies and it can be installed on any website.
+PUP runs only in the browser (DOM-based), so it has no server-side dependencies.
 
 ## Customization
 
-All plugin customizations are handled via [data attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*) that you must add to PUP base code. As an example, to use the red color palette the code should look like this:
+Configure PUP with [data attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*).
+
+For example, this uses the red palette:
 
 ```html
 <script async src="//demo.chevereto.com/sdk/pup.js" data-url="https://demo.chevereto.com/upload" data-palette="red"></script>
 ```
 
-This applies to all PUP options. The format is **data-_key_** where **_key_** is the target option key, in this case the palette option is being declared as the `data-palette` attribute value.
+All options follow the same pattern: `data-<key>`.
+
+Example: `palette` is configured with `data-palette`.
 
 ### Options
 
-This is the list of all the plugin key options available.
+All available plugin options are listed below.
 
 ### `url`
 
-URL of the target Chevereto website.
+Target Chevereto website URL.
 
-| Type   | Example                    |
-| ------ | -------------------------- |
-| String | https://demo.chevereto.com |
+Type: `String`
+Example: `https://demo.chevereto.com`
 
 ### `palette`
 
-Named color palette of the button or a comma-separated list of colors (HEX, RGB, etc.). When using a comma-separated list of colors, the system will bind each color to a `%n` color index (starting at `%1`) that you can use with custom CSS.
+Button color palette name, or a comma-separated custom color list (HEX, RGB, etc.).
 
-| Type   | Values                                                                                                  | Default   |
-| ------ | ------------------------------------------------------------------------------------------------------- | --------- |
-| String | `default` `clear` `turquoise` `green` `blue` `purple` `darkblue` `yellow` `orange` `red` `grey` `black` | `default` |
+With custom colors, each value is mapped to `%n` placeholders (`%1`, `%2`, ...), which you can use in custom CSS.
+
+Type: `String`
+Default: `default`
+
+Values:
+
+```text
+default
+clear
+turquoise
+green
+blue
+purple
+darkblue
+yellow
+orange
+red
+grey
+black
+```
 
 ### `auto-insert`
 
-Embed codes to auto insert in the target editable content. Codes using `full`, `medium` or `thumbnail` will link to the media page.
+Embed code to auto-insert in editable content.
 
-Use `0` to disable auto insert.
+Codes using `full`, `medium`, or `thumbnail` link to the media page.
 
-| Type   | Values                                                                                                                                                                                                                                                                                  | Default               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| String | `0` `viewer-links` `direct-links` `html-embed` `html-embed-full` `html-embed-medium` `html-embed-thumbnail` `bbcode-embed` `bbcode-embed-full` `bbcode-embed-medium` `bbcode-embed-thumbnail` `markdown-embed` `markdown-embed-full` `markdown-embed-medium` `markdown-embed-thumbnail` | `bbcode-embed-medium` |
+Use `0` to disable auto-insert.
+
+Type: `String`
+Default: `bbcode-embed-medium`
+
+Values:
+
+```text
+0
+viewer-links
+direct-links
+frame-links
+thumb-links
+medium-links
+delete-links
+html-embed
+full-html-embed
+medium-html-embed
+thumb-html-embed
+markdown-embed
+full-markdown-embed
+medium-markdown-embed
+thumb-markdown-embed
+bbcode-embed
+full-bbcode-embed
+medium-bbcode-embed
+thumb-bbcode-embed
+```
 
 ### `auto-close`
 
-A boolean indicating if the popup should auto close after the media is inserted.
+Whether the popup should close automatically after insertion.
 
 Use `0` to disable auto-close.
 
-| Type    | Values  | Default |
-| ------- | ------- | ------- |
-| Integer | `0` `1` | `1`     |
+Type: `Integer`
+Default: `1`
+Values: `0`, `1`
 
 ### `sibling`
 
-Sibling CSS selector to use it as a reference to the DOM node where the button should be inserted. By default, the button will be placed relative to the editable content. When the sibling is defined, the plugin will search for that element and it will use it as the reference for button insertion.
+CSS selector used as the reference node for button insertion.
 
-| Type   | Example    |
-| ------ | ---------- |
-| String | `.sibling` |
+By default, the button is inserted relative to editable content. If `sibling` is set, PUP inserts relative to the matched element instead.
+
+Type: `String`
+Example: `.sibling`
 
 ### `sibling-pos`
 
-Position relative to the sibling to place the button.
+Button position relative to the `sibling` element.
 
-| Type   | Values           | Default |
-| ------ | ---------------- | ------- |
-| String | `before` `after` | `after` |
+Type: `String`
+Default: `after`
+Values: `before`, `after`
 
 ### `vendor`
 
-Named vendor string.
+Forum/platform vendor preset.
 
-| Type   | Values                                                                                                       | Default |
-| ------ | ------------------------------------------------------------------------------------------------------------ | ------- |
-| String | `bbpress` `discourse` `discuz` `ipb` `mybb` `nodebb` `phpbb` `smf` `vanilla` `vbulletin` `woltlab` `xenforo` | `auto`  |
+Type: `String`
+Default: `auto`
+
+Values:
+
+```text
+bbpress
+discourse
+discuz
+ipb
+mybb
+nodebb
+phpbb
+smf
+vanilla
+vbulletin
+woltlab
+xenforo
+```
 
 ### `mode`
 
-Plugin mode. By default, the plugin binds to any matching editor box. Use `manual` mode to explicitly insert the button and stop any automatic binding.
+Plugin mode.
 
-| Type   | Values          | Default |
-| ------ | --------------- | ------- |
-| String | `auto` `manual` | `auto`  |
+`auto` binds to matching editors automatically. `manual` disables automatic binding so you can insert buttons explicitly.
+
+Type: `String`
+Default: `auto`
+Values: `auto`, `manual`
 
 ### `target`
 
-CSS selector for target editable content. Use it when manually inserting the button.
+CSS selector for target editable content. Use this with manual insertion.
 
-| Type   | Example     | Default |
-| ------ | ----------- | ------- |
-| String | `.selector` | `auto`  |
+Type: `String`
+Default: `auto`
+Example: `.selector`
 
 ### `lang`
 
-Button language for two-letter and four-letter language codes.
+Button language code (2-letter or 4-letter).
 
-| Type   | Values                                                                         | Default |
-| ------ | ------------------------------------------------------------------------------ | ------- |
-| String | `ar` `cs` `de` `es` `fi` `fr` `id` `it` `ja` `nl` `pt_BR` `ru` `zh_CN` `zh_TW` | `auto`  |
+Type: `String`
+Default: `auto`
+
+Values:
+
+```text
+ar
+cs
+de
+es
+fi
+fr
+id
+it
+ja
+nl
+pt_BR
+ru
+zh_CN
+zh_TW
+```
 
 ### `container-class`
 
-Custom button container class name. It binds `%cClass` to the template stack.
+Custom button container class name. Mapped to `%cClass` in templates.
 
-| Type   | Example     | Default                   |
-| ------ | ----------- | ------------------------- |
-| String | `className` | `chevereto-pup-container` |
+Type: `String`
+Default: `chevereto-pup-container`
+Example: `className`
 
 ### `button-class`
 
-Custom button class name. It binds `%bClass` to the template stack.
+Custom button class name. Mapped to `%bClass` in templates.
 
-| Type   | Example     | Default                |
-| ------ | ----------- | ---------------------- |
-| String | `className` | `chevereto-pup-button` |
+Type: `String`
+Default: `chevereto-pup-button`
+Example: `className`
 
 ### `html`
 
-[Custom HTML](#custom-html).
+[Custom HTML and CSS](#custom-html-and-css).
 
-| Type | Example |
-| ---- | ------- ||
-| String | `<div>Button<div>` |
+Type: `String`
+Example: `<div>Button</div>`
 
 ### `css`
 
-[Custom HTML](#custom-html).
+[Custom HTML and CSS](#custom-html-and-css).
 
-| Type   | Example                |
-| ------ | ---------------------- |
-| String | `.div { color: red; }` |
+Type: `String`
+Example: `.div { color: red; }`
 
 ### `fit-editor`
 
-A boolean indicating if the plugin should fit the button to the target editor toolbar.
+Whether PUP should adapt button styling to the target editor toolbar.
 
-When disabled, the plugin won't fit the button styling to the target editor (override valid only for supported vendors).
+If disabled, PUP keeps its own button style (override applies only to supported vendors).
 
-| Type    | Values  |
-| ------- | ------- |
-| Integer | `0` `1` |
+Type: `Integer`
+Values: `0`, `1`
 
 ### `observe`
 
-CSS selector for elements that on click event will trigger sibling observation and then button insertion (live append). Useful for dynamic editors that generate editor boxes on the fly.
+CSS selector for elements that trigger sibling observation on click, then button insertion.
 
-| Type | Example |
-| ---- | ------- ||
-| String | `.selector` |
+Useful for dynamic editors that create editor boxes on demand.
+
+Type: `String`
+Example: `.selector`
 
 ### `observe-cache`
 
-A boolean indicating if a matched observed element should be cached.
+Whether matched observed elements should be cached.
 
-When enabled, it will stop observing the matched observed element click events. Always disable observe cache if the editor is dynamically generated and not stored as a DOM node.
+When enabled, PUP stops observing click events for already matched elements.
 
-| Type    | Values  | Default |
-| ------- | ------- | ------- |
-| Integer | `0` `1` | `1`     |
+Disable this option if your editor is dynamically recreated and not reused as a persistent DOM node.
+
+Type: `Integer`
+Default: `1`
+Values: `0`, `1`
 
 ### Custom HTML and CSS
 
-PUP supports template placeholders, which is a special string that PUP will convert into usable markup.
+PUP supports template placeholders, special tokens converted to usable markup.
 
 Template placeholders available:
 
@@ -203,73 +290,85 @@ Template placeholders available:
 | %iconSvg | Vector icon in the form of a ready-to-use SVG HTML tag      |
 | %text    | Translated button text                                      |
 
-For custom CSS, you can also use color palette placeholders in the form of `%n` where **n** is the color palette index. It binds `%1`, `%2`, ..., `%n` placeholders.
+For custom CSS, you can also use `%n` palette placeholders, where **n** is the color index (`%1`, `%2`, ..., `%n`).
 
-Custom HTML works by indicating the template string as an option attribute. In this example, this is the custom HTML that we want to use:
+Set the custom template string in an option attribute.
+
+Example HTML template:
 
 ```html
 <a %x title='%text' class='%bClass'>%iconSvg</a>
 ```
 
-To use this template, simply assign `data-html` right into the plugin code:
+Use the template by assigning `data-html` in the plugin code:
 
 ```html
 <script async src="//demo.chevereto.com/sdk/pup.js" data-url="https://demo.chevereto.com/upload" data-html="<a %x title='%text' class='%bClass'>%iconSvg</a>"></script>
 ```
 
-Custom CSS works exactly the same as custom HTML but it uses `data-button-css` and color palette placeholders (`%1`, `%2`, ..., `%n`). In this example, this is the custom CSS that we want to use:
+Custom CSS works the same way and supports palette placeholders (`%1`, `%2`, ..., `%n`).
+
+Example CSS template:
 
 ```
 li.%cClass .%bClass{background:%1;color:%2;text-indent:unset;border-radius:3px;position:relative}li.%cClass a.%bClass:hover{background:%3;color:%4;border-color:%5}.%cClass .%bClass svg{font-size:15px;width:1em;height:1em;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);position:absolute;left:50%;top:50%;fill:currentColor}
 ```
 
-To use this template, simply assign `data-css` right into the plugin code:
+Use the template by assigning `data-css` in the plugin code:
 
 ```html
 <script async src="//demo.chevereto.com/sdk/pup.js" data-url="https://demo.chevereto.com/upload" data-css="li.%cClass .%bClass{background:%1;color:%2;text-indent:unset;border-radius:3px;position:relative}li.%cClass a.%bClass:hover{background:%3;color:%4;border-color:%5}.%cClass .%bClass svg{font-size:15px;width:1em;height:1em;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);position:absolute;left:50%;top:50%;fill:currentColor};"></script>
 ```
 
-**Important:** For both custom HTML and CSS make sure to don't break the syntax when using quotes.
+**Important:** For custom HTML and CSS, keep quote usage valid to avoid breaking attribute syntax.
 
 ### Manual button binding
 
-To manually bind a button, simply create your own button make sure to add `data-chevereto-pup-trigger` and `data-target` attributes. This is an example of a manually inserted button:
+To manually bind a button, add `data-chevereto-pup-trigger` and `data-target` to your own button:
 
 ```html
 <div id="editor" contenteditable></div>
 <button data-chevereto-pup-trigger data-target="#editor">Custom button</button>
 ```
 
-Manually inserted buttons get the same popup dialog functionality and binding. However, manually inserted buttons won't use any of the plugin options or templating.
+Manually inserted buttons use the same upload popup and insertion flow, but they do not use plugin options or templating.
 
 ## Core features
 
-This plugin has very neat functions and takes advantage of modern standards to provide its core functionality. These are some of the features shape the PUP core.
+PUP uses modern browser capabilities to keep integration simple and fast.
+
+Key core features:
 
 ### Native JavaScript
 
-PUP is written in modern JavaScript standard and it doesn't require any external library or server module. The code is about 18KB and gzipped should be around just 6KB. The source is minified using [Google Closure compiler](https://developers.google.com/closure/compiler/) but object names aren't touched so you can inspect the source and easily understand the code.
+PUP is written in modern JavaScript and requires no external library or server module.
 
-It works async so it doesn't matter where you place the insertion code and it won't render block the load of the target website at all.
+The script is about 18KB (around 6KB gzipped). It is minified with [Google Closure Compiler](https://developers.google.com/closure/compiler/), but object names are preserved to keep inspection easier.
+
+It loads asynchronously, so script placement is flexible and it does not block page rendering.
 
 ### Smart load and dynamic trigger observer
 
-PUP is designed to observe the DOM until the target sibling element is available and soon as that happens, it will initiate its process and it will stop any additional DOM node observation. For dynamically generated editor boxes, PUP has a complimentary load option that observes the click event on a defined selector element. Any click on that element will trigger PUP's sibling observation and it will stop soon as the sibling gets found. This allows PUP to work in static or dynamic editor boxes.
+PUP observes the DOM until the target sibling is available. Once found, it initializes and stops extra observation.
 
-Since some dynamic editor boxes will be generated just once and then stored as DOM nodes (XenForo) and others will be always re-parsed (Discourse, NodeBB), you can indicate if PUP should cache or not the observed triggered bindings. XenForo, Discourse and NodeBB vendors are configured to observe certain selectors just in case you want to learn how this works.
+For dynamic editors, PUP can observe clicks on a selector (`observe`) to restart sibling lookup and insert the button when needed.
+
+Some editors are generated once and reused (for example, XenForo), while others are frequently rebuilt (for example, Discourse and NodeBB). Use `observe-cache` to control whether observed triggers are cached.
 
 ### Closure
 
-The source is all wrapped in a JavaScript closure meaning that the internal variables can't be tempered. This aims to avoid hijacking via browser console exploits or DOM manipulation. This closure also grants that all the variables handled by PUP won't conflict with any of the scripts running on the target website.
+The source is wrapped in a JavaScript closure, which protects internal variables and reduces conflicts with other scripts on the page.
 
 ### postMessage
 
-PUP uses [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to keep an active communication with the target Chevereto website. Options and embed codes are safely handled using this API which restricts the origin of the posted messagese and on top of that, PUP validates each message to ensure that there's no tempering on those either. PUP will only listen to messages from the target Chevereto website.
+PUP uses the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API to communicate with the Chevereto website.
+
+It restricts accepted origins and validates message payloads. PUP only listens to messages from the configured Chevereto origin.
 
 ### Multiple instances
 
-PUP supports multiple unlimited instances. You can cast multiple buttons at the same time and all instance ids are referenced using the [GUID algorithm](https://en.wikipedia.org/wiki/Universally_unique_identifier).
+PUP supports multiple simultaneous instances. Instance IDs are generated with a [GUID algorithm](https://en.wikipedia.org/wiki/Universally_unique_identifier).
 
 ### Template cache
 
-PUP will cache the button template so it won't unnecessarily re-process the template placeholders. This grants super fast performance even in multiple instances.
+PUP caches button templates to avoid unnecessary placeholder re-processing, improving performance in multi-instance scenarios.
